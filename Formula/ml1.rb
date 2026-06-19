@@ -3,7 +3,6 @@ class Ml1 < Formula
   desc "MinLang compiler (validate + compile to Godot/C# and web/TypeScript)"
   homepage "https://github.com/codeshift-ai-solutions/minlang-releases"
   license "MIT"
-  version "0.4.0"
 
   on_macos do
     if Hardware::CPU.arm?
