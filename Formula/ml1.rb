@@ -6,21 +6,21 @@ class Ml1 < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/codeshift-ai-solutions/minlang-releases/releases/download/v0.4.0/ml1-v0.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "9a6a62c1fba713c6fa90a181f7b1b062015e62e03253462e837167451ed940fa"
+      url "https://github.com/codeshift-ai-solutions/minlang-releases/releases/download/v0.6.2/ml1-v0.6.2-aarch64-apple-darwin.tar.gz"
+      sha256 "01705adf4fc14ec8e203b52a1c85ab5377f3f953bf8a81bde92f1e27e615017e"
     else
-      url "https://github.com/codeshift-ai-solutions/minlang-releases/releases/download/v0.4.0/ml1-v0.4.0-x86_64-apple-darwin.tar.gz"
-      sha256 "2fcd8700598273748ca53d8ce7963f75eb2b5b4486182a5fdc98cd260dd29a85"
+      url "https://github.com/codeshift-ai-solutions/minlang-releases/releases/download/v0.6.2/ml1-v0.6.2-x86_64-apple-darwin.tar.gz"
+      sha256 "92cecc5606656dbc7a3a61fb1d830b651bfca80ce95de99bd7c9d69e0c395dc3"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/codeshift-ai-solutions/minlang-releases/releases/download/v0.4.0/ml1-v0.4.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "47067a9401cf81ece4da21f8347c1fd3c8d16a6a42a33d4ef0b5200a67e64ea3"
+      url "https://github.com/codeshift-ai-solutions/minlang-releases/releases/download/v0.6.2/ml1-v0.6.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a54f01ecd45d999b5cb8ecade256de9c30f9ff8bb96c31157ba71501b9a538be"
     else
-      url "https://github.com/codeshift-ai-solutions/minlang-releases/releases/download/v0.4.0/ml1-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "81e06ee9c77571917f4ebadf4d88ee2bfaf73864825464870af005a3aa4c7410"
+      url "https://github.com/codeshift-ai-solutions/minlang-releases/releases/download/v0.6.2/ml1-v0.6.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "037c49bb63c6a261d16fd8be75b27e496f087b171a14d1db9f830614f08a5d86"
     end
   end
 
